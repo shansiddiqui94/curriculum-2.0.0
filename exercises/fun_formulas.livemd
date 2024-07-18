@@ -67,6 +67,7 @@ total = 42
 Enter your solution below.
 
 ```elixir
+ percent = (12 / 42) * 100
 
 ```
 
@@ -93,7 +94,12 @@ mass * acceleration
 Enter your solution below.
 
 ```elixir
+mass = 10 
+acceleration = 50
 
+formula = mass * acceleration 
+
+formula
 ```
 
 ## What Do You Tip?
@@ -117,6 +123,13 @@ initial_cost * tip_percent
 Enter your solution below.
 
 ```elixir
+meal_cost = 20
+
+tip = 1.15
+
+meal_cost * tip
+
+
 
 ```
 
@@ -141,7 +154,10 @@ a ** 2 + b ** 2
 Enter your solution below.
 
 ```elixir
+a = 4 ** 2
+b = 10 ** 2
 
+c = a + b
 ```
 
 ## Bonus: Square Root
@@ -161,6 +177,9 @@ c_squared = 116
 Enter your solution below.
 
 ```elixir
+c = 116
+sqRoot = :math.sqrt(c)
+
 
 ```
 
