@@ -80,7 +80,7 @@ the second element.
 </details>
 
 ```elixir
-
+{:ok, "got it!"}
 ```
 
 ## Pattern Matching
@@ -110,6 +110,7 @@ However, we can bind other values inside of a container data type, so the left a
 
 ```elixir
 {one, two, three} = {1, 2, 3}
+
 ```
 
 Now we can use these bound variables `one`, `two`, and `three` in our program.
@@ -160,7 +161,7 @@ jewel
 </details>
 
 ```elixir
-{"gold", "treasure", "jewel"}
+{_gold, _treasure, jewel} = {"gold", "treasure", "jewel"}
 ```
 
 ## Further Reading
